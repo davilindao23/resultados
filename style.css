@@ -17,7 +17,7 @@
     --verbal-bg: #00BB8F;
     --visual-bg: #1125D6;
     --very-light-blue: #ECF2FF;
-
+   
 }
 body{
     font-size: 1.6rem;
@@ -63,7 +63,6 @@ body{
     margin-inline: auto;
     color: var(--light-blue);
 }
-
 .resumo {
     padding: 2.4rem 3.2rem;
     background: var(--white);
@@ -125,21 +124,20 @@ body{
         justify-content: center;
         align-items: center;
     }
-
-
+    
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
        width: 736px;
        background: var(--white);
        border-radius: 3.2rem 0 0 3.2rem;
+
     }
     .resultado{
         padding-block: 3.8rem;
         border-radius: 3.2rem;
     }
-
-
+    
     .resultado h1{
         font-size: 2.4rem;
         margin-bottom: 3.6rem;
@@ -154,7 +152,6 @@ body{
     }
     .resultado div strong :nth-of-type(2){
         font-size: 1.8rem;
-
     }
     .resultado h2{
         font-size: 3.2rem;
@@ -162,12 +159,25 @@ body{
     }
     .resultado p {
         font-size: 1.8rem;
-
+        
     }
     .resumo{
         padding: 3.8rem 4rem;
+        border-radius: 3.2rem;
     }
     .resumo h2{
         font-size: 2.4rem;
         margin-bottom: 3rem;
     }
+    .resumo div {
+        font-size: 1.8rem;
+
+    }
+    .resumo button{
+        margin-top: 2.4rem;
+
+    }
+    .resumo button:hover{
+        background: var(--resultado-bg);
+        cursor: pointer;
+}
